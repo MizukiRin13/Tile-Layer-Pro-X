@@ -273,7 +273,7 @@ BYTE DefaultPalette[] = {
 0x77,0x50,0xD3,
 0x55,0x30,0x80
 };
-
+// tile format strings
 char *TileFormatStrings[] = { "Monochrome [1BPP]",
                             "NES [2BPP]",
                             "Game Boy [2BPP]",

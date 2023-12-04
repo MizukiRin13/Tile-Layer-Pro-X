@@ -1,12 +1,12 @@
 #ifndef __TLCLASS_H
 #define __TLCLASS_H
-
+//declares struct vars
 typedef struct tagLOGPALETTE256 {
     WORD            palVersion;
     WORD            palNumEntries;
     PALETTEENTRY    palPalEntry[256];
     } LOGPALETTE256;
-
+//declares enum
 enum TTileFormat { tf1BPP, tfNES, tfGameBoy, tfVirtualBoy, tfSNES, tfSMS, tfGenesis, tfSNES3BPP, tfNGPC, tfRAW };
 
 class TTLImage
